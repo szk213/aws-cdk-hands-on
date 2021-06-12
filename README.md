@@ -1,9 +1,10 @@
-# Welcome to your CDK TypeScript project!
+# aws-cdk-hands-on
 
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`AwsCdkHandsOnStack`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+CDKハンズオン
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## 備考
+
+* WSL2上だとめちゃくちゃ遅い。。。
 
 ## Useful commands
 
@@ -13,3 +14,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+
+## 参考
+
+* [WELCOME DEVELOPERS!](https://summit-online-japan-cdk.workshop.aws/)
